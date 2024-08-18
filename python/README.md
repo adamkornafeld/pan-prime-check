@@ -1,8 +1,8 @@
 ### Usage
 
 ```shell
-pipenv shell
-pipenv install
+poetry shell
+poetry install
 python main.py
 Enter PAN:
 ```
@@ -15,4 +15,4 @@ Output is one of these options:
 ### Requirements
 
 - [python](https://www.python.org/) 3.10 or later
-- [pipenv](https://pipenv.pypa.io/en/latest/) 2024.0.1 or later 
+- [poetry](https://python-poetry.org/) 1.8.3 or later 

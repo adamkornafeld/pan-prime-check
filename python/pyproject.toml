@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pan"
+version = "0.1.0"
+description = "Verify if a payment card PAN is a prime number."
+authors = ["Adam Kornafeld <adam@kornafeld.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+sympy = "^1.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
